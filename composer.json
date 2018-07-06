@@ -1,0 +1,22 @@
+{
+    "name": "dariush59/endpoint-instagram-to-csv",
+    "description": "Create a small PHP app using the ​Instagram API,​ which receives 100 results for the hashtag “#natural",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dariush Mohammadi",
+            "email": "Dariush59@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+    "psr-4": {
+      "EndpointApiConvertor\\": "src/EndpointApiConvertor"
+    }
+  }
+}
